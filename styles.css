@@ -1,0 +1,51 @@
+body {
+    background-image: url(pic.jpg)    ;
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+    color:white
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color: rgb(31, 61, 143);
+}
+
+h2 {
+    color: white ;
+    margin: 1em 0 0.25em;
+    font-family: cursive ;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    font-family: cursive;
+}
+form{
+    font-family: cursive; 
+}
